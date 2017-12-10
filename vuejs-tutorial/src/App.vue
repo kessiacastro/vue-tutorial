@@ -17,7 +17,7 @@
       <!-- Hero content: will be in the middle -->
       <div class="hero-body">
         <div class="container has-text-centered">
-          <h1 class="title">{{msg}}</h1>
+          <todo-card></todo-card>
         </div>
       </div>
 
@@ -36,8 +36,13 @@
 </template>
 
 <script>
+import TodoCard from './components/TodoCard.vue'
+
 export default {
   name: 'app',
+  components: {
+    TodoCard
+  },
   data () {
     return {
       msg: 'Hello, World!'
