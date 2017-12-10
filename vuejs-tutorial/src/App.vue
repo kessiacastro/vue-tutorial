@@ -17,7 +17,13 @@
       <!-- Hero content: will be in the middle -->
       <div class="hero-body">
         <div class="container has-text-centered">
-          <todo-card></todo-card>
+          <div class="row">
+            <div class="columns">
+              <div class="column is-half is-offset-one-quarter">
+                <todo-card></todo-card>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
