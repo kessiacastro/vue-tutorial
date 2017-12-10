@@ -17,6 +17,7 @@
       <!-- Hero content: will be in the middle -->
       <div class="hero-body">
         <div class="container has-text-centered">
+          <h1 class="title">{{msg}}</h1>
         </div>
       </div>
 
@@ -39,7 +40,7 @@ export default {
   name: 'app',
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App'
+      msg: 'Hello, World!'
     }
   }
 }
