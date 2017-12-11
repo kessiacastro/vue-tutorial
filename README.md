@@ -1,8 +1,10 @@
-# vuejs-tutorial
+# VueJS - Tutorial
 
-> A Vue.js tutorial by Késsia Castro.
+Criação de uma To-Do List utilizando VueJS, Bulma e Font-Awesome.
 
-## Build Setup
+![alt text](https://tjusiq-dm2305.files.1drv.com/y4mKzME2UaZ8ZC5gsu1nhh_y12k7rJBMufEolQQw5c2uFL6iimDgQYVPVgl-PcuVO3-SzfNJ4uRZiXT3hl65htWLys2v-Td2l2S4H9TXQuXz1SFl13KK3K251zkWzIH9qtLbv86F0esd40MnxAyt9oK26t0wAsWOOQDabpm4MmmRScw4PGqPUgJWU4V8k9X88XzO-qLsDXkfiWPJXbg3mlsbA?width=660&height=351&cropmode=none "Screenshoot do To-Do List final")
+
+## Setup
 
 ``` bash
 # install dependencies
