@@ -49,7 +49,6 @@ export default {
     },
     checkTarefa(tarefa) {
       this.tarefas[tarefa]['checked'] = !this.tarefas[tarefa]['checked']
-      this.$set(this.tarefas, tarefa, this.tarefas[tarefa])
     },
     removerTarefa(tarefa) {
       this.$delete(this.tarefas, tarefa)
